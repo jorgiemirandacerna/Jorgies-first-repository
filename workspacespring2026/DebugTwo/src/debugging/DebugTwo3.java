@@ -1,0 +1,13 @@
+package debugging;
+public class DebugTwo3 {
+   public void division()
+   {
+      int a = 99, b = 8, result;
+      long c = 777777777;
+      result = a % b;
+      System.out.println("Divide " + a + " by " + b);
+      System.out.println("remainder is " + result);
+      System.out.print("c is a very large number: ");
+      System.out.println(c);
+    }
+}
